@@ -5,8 +5,8 @@ import time
 pyautogui.FAILSAFE = True  # Move mouse to top-left corner to stop the script
 pyautogui.PAUSE = 0.01  # Small pause between clicks to prevent system overload
 
-# 5-second delay before starting
-print("Starting in 5 seconds... Move mouse to top-left corner to cancel.")
+# 10-second delay before starting
+print("Starting in 10 seconds... Move mouse to top-left corner to cancel.")
 time.sleep(10)
 
 # Click for 20 seconds
